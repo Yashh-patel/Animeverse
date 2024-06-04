@@ -1,0 +1,468 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+   /*cursor:none;*/
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+  
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    font-family: poppins;
+
+}
+.nav-part2{
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 5vw;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+.nav-part2 a:hover{
+    color: #04ff6d;
+    padding-right: 5px;
+    text-transform: capitalize;
+   
+}
+.nav-part2 a{
+list-style: none;
+text-decoration: none;
+color: #f2f2f2;
+}
+.nav h2 {
+  
+    color: #f2f2f2;
+    font-size: 4vw;
+    font-weight: 700;
+    font-family:"Merriweather", serif;
+}
+.nav h2 span{
+    color: #04ff6d;
+}
+.content{
+    height: calc(100% - 100px);
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+}
+.left{
+height:100%;
+width:50%;
+
+padding: 5vw 4vw;
+
+}
+.left h1{
+    font-size: 4.5vw;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 4.5vw;
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+}
+.left h1 span{
+    color: rgb(26, 255, 0);
+    
+}
+.left p{
+    font-size: 28px;
+   font-weight: 600;
+   color: #666;
+   width: 80%;
+   margin-top: 4vw;
+   margin-bottom: 4vw;
+   font-family:  "Cute Font";
+}
+.right{
+    height: 100%;
+    width: 50%;
+background-image: url(gojoblack.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-size: 45%;
+background-position: 50%;
+
+
+}
+.about{
+    height: calc(100% - 100px) ;
+    width: 100%;
+
+  background-color: #191717;
+   
+    position: relative;
+}
+.about h1{
+    color: rgb(213, 209, 209);
+    
+
+}
+.about h1 a{
+    color: #00ff2f;
+    text-decoration: none;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.element{background-color: #000000;
+    width: 100%;
+height: fit-content;
+    padding: 4vw 3vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 1vw;
+
+    border-top: 1px solid #dbdada;
+    opacity: 0.8;
+    border-bottom: 1px solid #beb4b4;
+}
+.element h5{
+    color: #ffffff;
+    
+}
+.aboutprofile{
+    height:100%;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    position: relative;
+}
+.r1{
+
+    background-image: url(aNIMEVERSE-removebg-preview.png);
+    background-size:cover;
+    background-position: 60%;
+    
+
+    width: 60%;
+    height: 100%;
+    
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin-bottom: 20px;
+}
+.L1{
+
+    height: 100%;
+    width: 50%;
+    background-color: #000000;
+    color: #c1baba;
+    padding: 4vw 4vw ;
+    padding-top: 19vw;
+    margin-top: 50px;
+}
+.aboutbar{
+    height:100%;
+    width: 100%;
+    background-color: #000000;
+   
+}.footer{
+    border-top: 0.1rem solid rgb(207, 204, 204);
+    height: calc(50% - 100px);
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+}
+
+.footer-col{
+    position: relative;
+    display: inline-block;
+    padding: 0 35px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #0dd403;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
+
+.footer-col ul li a:hover{
+    color: rgb(36, 245, 40);
+    padding-left: 8px;
+}
+
+.footer-col .social-links{
+    position: relative;
+    padding:  15px 0;
+    display: flex;
+    
+}
+
+.footer-col .social-links a{
+ margin: 0 10px 10px 0;
+ min-width: 30px;
+ height: 30px;
+ color: #ffffff;
+ background-color: rgba(255, 255, 255, 0.2);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ font-size: 10pxpx;}
+
+ .footer-col .social-links a:hover
+ {
+    color: #24262b;
+    background-color: white;
+ }
+
+ #formpage {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #000000;
+    color: #eeeeee;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#formpage-address {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+form,input{
+    color: #eeeeee;
+}
+#formpage-address .right1 {
+    width: 40%;
+}
+
+#formpage-address .left1 {
+    width: 40%;
+}
+
+.title {
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 44px;
+    margin: 0;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.left-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fdfdff;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input-box {
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#btn-1 {
+    font-size: 18px;
+    border: 0px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+#btn-1:hover{
+    background-color: #04ff6d;
+    color: #dbdada;
+    padding-right:10px ;
+
+}.shopcontent{
+    width: 100%;
+    height: calc(100% - 110px);
+    position: relative;
+    display: flex;
+    background-color: #ffffff;
+    color: #ffffff;
+   
+}
+.leftone{
+    width: 40%;
+    height: 100%;
+    background-color: #000000;
+    padding: 70px 140px;
+}
+.leftone h5{
+    font-size: 20px;
+    margin: 30px;
+    color: #c1baba;
+
+}
+.leftone h1{
+    font-size: 70px;
+    line-height: 60px;
+    padding-bottom: 40px;
+    
+    text-transform: uppercase;
+}.leftone h1 span{
+    font-size: 70px;
+    line-height: 60px;
+    padding-bottom: 40px;
+    color:#00ff2f;
+    text-transform: uppercase;
+}
+.leftone p{
+    font-size: 15px;
+    width: 100%;
+  
+    padding-bottom: 40px;
+}
+.rightone{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    padding: 100px;
+background-color: #000000;
+display:inline-block;
+white-space:nowrap;
+overflow-x: auto;
+}
+.rightone::-webkit-scrollbar{
+    display: none;
+
+}
+
+
+button{
+    color: #f2f2f2;
+    background-color: #666;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 12px 14px;
+}
+.el1{
+height: 400px;
+width: 300px;
+background-color: #ffffff;
+position: relative;
+display: inline-block;
+margin: 10px;
+border-radius: 15px;
+
+
+}
+
+.el1 img{
+    height: 70%;
+    width: 100%;
+    top:7%;
+    object-fit: cover;
+    position: absolute;
+    box-shadow: 5px ;
+}
+.el1 h5{
+    position: absolute;
+    bottom: 0px;
+    right: 45%;
+    background-color: #000000;
+    color: #eeeeee;
+    padding: 7px 24px;
+    padding-top: 10px;
+font-family:Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    
+}
+.el1 h4{
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    background-color: #fffdfd;
+    color: #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 12px 14px;
+    
+}
