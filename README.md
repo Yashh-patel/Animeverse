@@ -82,4 +82,3 @@ For any questions or suggestions, please contact the project maintainer at yp034
 
 ---
 
-Feel free to customize this README further to better fit the specifics and goals of your project.
