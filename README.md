@@ -1,7 +1,3 @@
-Sure, here is the updated README including the features like effects and intermediate animations:
-
----
-
 # Animeverse
 
 Welcome to Animeverse! This repository hosts the code for a web project dedicated to anime enthusiasts.
