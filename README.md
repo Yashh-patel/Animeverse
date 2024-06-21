@@ -24,13 +24,13 @@ Animeverse is a web-based project aimed at providing anime fans with a visually 
 - **Intermediate Animations**: Experience smooth and eye-catching animations that enhance the interface.
 - **Hover Effects**: Discover dynamic hover effects that bring elements to life.
 - **Easy Navigation**: Effortlessly browse through different sections of the site.
+- **Animation**: Enjoy smooth and visually appealing animation in shop us page, enhancing the user experience and making navigation more engaging and interactive.
 
 ## Technologies
 
 - **HTML5**: Structure the web content.
 - **CSS3**: Style the web pages with modern designs.
 - **Bootstrap**: Utilize responsive design components.
-- **JavaScript**: Add interactivity to the web pages.
 
 ## Installation
 
