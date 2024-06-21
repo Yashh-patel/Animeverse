@@ -372,7 +372,7 @@ form,input{
     width: 40%;
     height: 100%;
     background-color: #000000;
-    padding: 70px 140px;
+    padding: 70px 30px;
 }
 .leftone h5{
     font-size: 20px;
@@ -396,8 +396,7 @@ form,input{
 .leftone p{
     font-size: 15px;
     width: 100%;
-  
-    padding-bottom: 40px;
+    padding: 20px;
 }
 .rightone{
     width: 60%;
@@ -408,7 +407,13 @@ background-color: #000000;
 display:inline-block;
 white-space:nowrap;
 overflow-x: auto;
+
+
+
+
 }
+
+
 .rightone::-webkit-scrollbar{
     display: none;
 
@@ -432,9 +437,22 @@ position: relative;
 display: inline-block;
 margin: 10px;
 border-radius: 15px;
+animation: anime;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
 
 
 }
+@keyframes anime {
+    from{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(calc(-100% - 100px));
+    }
+  }
 
 .el1 img{
     height: 70%;
